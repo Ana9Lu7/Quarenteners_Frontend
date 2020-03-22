@@ -17,6 +17,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatListModule} from '@angular/material/list';
 
 // pages
 import { LoginPageComponent } from './pages/login-page/login-page.component';
@@ -27,6 +28,8 @@ import { OrientacaoMedicaPageComponent } from './pages/orientacao-medica-page/or
 import { TeleconsultaPageComponent } from './pages/teleconsulta-page/teleconsulta-page.component';
 import { EspecialistaPageComponent } from './pages/especialista-page/especialista-page.component';
 import { AreaRestritaComponent } from './pages/area-restrita/area-restrita.component';
+import { AreaRestritaMedicoComponent } from './pages/area-restrita-medico/area-restrita-medico.component';
+import { AreaRestritaAdminComponent } from './pages/area-restrita-admin/area-restrita-admin.component';
 
 
 
@@ -41,6 +44,8 @@ import { AreaRestritaComponent } from './pages/area-restrita/area-restrita.compo
     TeleconsultaPageComponent,
     EspecialistaPageComponent,
     AreaRestritaComponent,
+    AreaRestritaMedicoComponent,
+    AreaRestritaAdminComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +59,8 @@ import { AreaRestritaComponent } from './pages/area-restrita/area-restrita.compo
     MatFormFieldModule,
     MatInputModule,
     MatRadioModule,
-    MatTabsModule
+    MatTabsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

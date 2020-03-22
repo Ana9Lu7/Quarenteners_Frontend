@@ -1,0 +1,58 @@
+<mat-card>
+    <mat-card-content>
+        <mat-tab-group>
+            <mat-tab label="Recebimento de Exames para Análise">
+                <mat-list role="list">
+                    <mat-list-item role="listitem">Exame 1</mat-list-item>
+                    <mat-list-item role="listitem">Exame 2</mat-list-item>
+                    <mat-list-item role="listitem">Exame 3</mat-list-item>
+                  </mat-list>
+            </mat-tab>
+            <mat-tab label="Envio de Laudo Médico">
+                <mat-card>
+                    <mat-card-title>Preencha o formulario com todas as informações</mat-card-title>
+                <mat-card-content>
+                  <form>
+                    <p>
+                      <mat-form-field>
+                        <input type="text" matInput placeholder="Nome do Exame">
+                      </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field>
+                            <input type="text" matInput placeholder="Nome do Paciente">
+                          </mat-form-field>
+                    </p>
+                    <p>
+                      <mat-form-field>
+                        <input type="text" matInput placeholder="Laudo">
+                      </mat-form-field>
+                    </p>
+                    <div class="button">
+                      <button mat-button>Enviar</button>
+                    </div>
+                  </form>
+                </mat-card-content>
+            </mat-card>
+        </mat-tab>
+            <mat-tab label="Teleconsulta">
+
+            </mat-tab>
+            <mat-tab label="Teleconsultoria">
+
+            </mat-tab>
+            <mat-tab label="Consultar Videoconferência Salva">
+                <mat-list role="list">
+                    <mat-list-item role="listitem">Videoconferência com Rafael - Teleconsultoria</mat-list-item>
+                    <mat-list-item role="listitem">Videoconferência com Paciente - Teleconsulta</mat-list-item>
+                  </mat-list>
+            </mat-tab>
+            <mat-tab label="Usuarios">
+                <mat-list role="list">
+                    <mat-list-item role="listitem">User 1</mat-list-item>
+                    <mat-list-item role="listitem">User 2</mat-list-item>
+                </mat-list>
+            </mat-tab>
+        </mat-tab-group>
+    </mat-card-content>
+</mat-card>

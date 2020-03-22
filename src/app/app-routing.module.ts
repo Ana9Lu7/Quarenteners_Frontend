@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import{LoginPageComponent} from '../app/pages/login-page/login-page.component';
 import{HomePageComponent} from '../app/pages/home-page/home-page.component';
@@ -8,8 +8,9 @@ import{OrientacaoMedicaPageComponent} from '../app/pages/orientacao-medica-page/
 import{TeleconsultaPageComponent} from '../app/pages/teleconsulta-page/teleconsulta-page.component';
 import{EspecialistaPageComponent} from '../app/pages/especialista-page/especialista-page.component';
 import{AreaRestritaComponent} from '../app/pages/area-restrita/area-restrita.component';
+import { AreaRestritaMedicoComponent } from './pages/area-restrita-medico/area-restrita-medico.component';
+import { AreaRestritaAdminComponent } from './pages/area-restrita-admin/area-restrita-admin.component';
 import{AppComponent} from '../app/app.component';
-
 
 const routes: Routes = [
   {
@@ -49,6 +50,15 @@ const routes: Routes = [
     path: "areaRestrita",
     component: AreaRestritaComponent
   },
+  {
+    path: "areaMedico",
+    component: AreaRestritaMedicoComponent
+  },
+  {
+    path: "areaAdmin",
+    component: AreaRestritaAdminComponent
+  },
+
 ];
 
 @NgModule({
