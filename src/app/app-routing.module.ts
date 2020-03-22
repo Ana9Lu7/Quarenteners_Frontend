@@ -13,7 +13,7 @@ import{AppComponent} from '../app/app.component';
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "home",
+    redirectTo: "/home",
     pathMatch: "full"
   },
   {
@@ -23,23 +23,23 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginPageComponent
-  },,
+  },
   {
     path: "laudos",
     component: LaudosMedicoPageComponent
-  },,
+  },
   {
     path: "analise",
     component: AnaliseExamesPageComponent
-  },,
+  },
   {
     path: "orientacao",
     component: OrientacaoMedicaPageComponent
-  },,
+  },
   {
     path: "teleconsulta",
     component: TeleconsultaPageComponent
-  },,
+  },
   {
     path: "especialista",
     component: EspecialistaPageComponent
