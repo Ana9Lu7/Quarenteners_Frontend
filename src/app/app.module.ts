@@ -36,7 +36,6 @@ import { EspecialistaPageComponent } from './pages/especialista-page/especialist
     LaudosMedicoPageComponent,
     AnaliseExamesPageComponent,
     OrientacaoMedicaPageComponent,
-    TelaConsultaPageComponent,
     TeleconsultaPageComponent,
     EspecialistaPageComponent,
   ],
