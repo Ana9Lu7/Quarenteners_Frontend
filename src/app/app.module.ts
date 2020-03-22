@@ -16,6 +16,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatTabsModule} from '@angular/material/tabs';
 
 // pages
 import { LoginPageComponent } from './pages/login-page/login-page.component';
@@ -25,6 +26,7 @@ import { AnaliseExamesPageComponent } from './pages/analise-exames-page/analise-
 import { OrientacaoMedicaPageComponent } from './pages/orientacao-medica-page/orientacao-medica-page.component';
 import { TeleconsultaPageComponent } from './pages/teleconsulta-page/teleconsulta-page.component';
 import { EspecialistaPageComponent } from './pages/especialista-page/especialista-page.component';
+import { AreaRestritaComponent } from './pages/area-restrita/area-restrita.component';
 
 
 
@@ -38,6 +40,7 @@ import { EspecialistaPageComponent } from './pages/especialista-page/especialist
     OrientacaoMedicaPageComponent,
     TeleconsultaPageComponent,
     EspecialistaPageComponent,
+    AreaRestritaComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { EspecialistaPageComponent } from './pages/especialista-page/especialist
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    MatRadioModule
+    MatRadioModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

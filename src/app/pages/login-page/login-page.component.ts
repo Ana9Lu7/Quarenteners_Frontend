@@ -26,9 +26,7 @@ export class LoginPageComponent implements OnInit {
     email: new FormControl(''),
     senha: new FormControl(''),
   });
-
   
-
   ngOnInit(): void {
     
   }

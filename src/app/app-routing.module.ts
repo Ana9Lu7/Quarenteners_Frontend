@@ -7,6 +7,7 @@ import{AnaliseExamesPageComponent} from '../app/pages/analise-exames-page/analis
 import{OrientacaoMedicaPageComponent} from '../app/pages/orientacao-medica-page/orientacao-medica-page.component';
 import{TeleconsultaPageComponent} from '../app/pages/teleconsulta-page/teleconsulta-page.component';
 import{EspecialistaPageComponent} from '../app/pages/especialista-page/especialista-page.component';
+import{AreaRestritaComponent} from '../app/pages/area-restrita/area-restrita.component';
 import{AppComponent} from '../app/app.component';
 
 
@@ -43,6 +44,10 @@ const routes: Routes = [
   {
     path: "especialista",
     component: EspecialistaPageComponent
+  },
+  {
+    path: "areaRestrita",
+    component: AreaRestritaComponent
   },
 ];
 
