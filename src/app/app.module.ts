@@ -23,7 +23,6 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { LaudosMedicoPageComponent } from './pages/laudos-medico-page/laudos-medico-page.component';
 import { AnaliseExamesPageComponent } from './pages/analise-exames-page/analise-exames-page.component';
 import { OrientacaoMedicaPageComponent } from './pages/orientacao-medica-page/orientacao-medica-page.component';
-import { TelaConsultaPageComponent } from './pages/tela-consulta-page/tela-consulta-page.component';
 import { TeleconsultaPageComponent } from './pages/teleconsulta-page/teleconsulta-page.component';
 import { EspecialistaPageComponent } from './pages/especialista-page/especialista-page.component';
 
